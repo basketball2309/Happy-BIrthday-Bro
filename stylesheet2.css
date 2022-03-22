@@ -10,7 +10,7 @@ body
     justify-content: center;
     align-items: center;
     text-align: right;
-    min-height: 90vh;
+    min-height: 100vh;
     background: rgb(32, 13, 39);
 }
 .box
@@ -25,11 +25,11 @@ body
 {
     0%{
 
-        transform: perspective(100px) rotateY(0deg);
+        transform: perspective(1000px) rotateY(0deg);
     }
     100%{
 
-        transform: perspective(100px) rotateY(360deg);
+        transform: perspective(1000px) rotateY(360deg);
     }
 }
 .box span{
