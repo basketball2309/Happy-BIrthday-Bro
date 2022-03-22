@@ -14,22 +14,39 @@
         #btn
         {
             position: absolute;
-            width: 200px;
-            height: 90px;
+            width: 300px;
+            height: 100px;
             border-width: 5px;
             border-radius: 40px;
-            font-size: 20px;
+            font-size: 25px;
             font-weight:bold;
             color: brown;
             cursor: pointer;
-            bottom: -6px;
+            top: 1px;
 
         }
         #btn:active
         {
-            font-size: 20px;
+            font-size: 23px;
         }
+        #btn2
+        {
+            position: absolute;
+            width: 300px;
+            height: 100px;
+            border-width: 5px;
+            border-radius: 40px;
+            font-size: 25px;
+            font-weight:bold;
+            color: brown;
+            cursor: pointer;
+            bottom: -1px;
 
+        }
+        #btn2:active
+        {
+            font-size: 23px;
+        }
     </style>
 </head>
 
@@ -40,12 +57,18 @@
         const audio = new Audio();
         audio.src = "./birthday.m4a";
     </script>
-    <div class="box">
-        <span style="--i:1;"><img src="tushar2.PNG" alt=""></span>
-        <span style="--i:2;"><img src="13.jpg" alt=""></span>
-        <span style="--i:3;"><img src="tushar1.PNG" alt=""></span>
-        <span style="--i:4;"><img src="3.jpg" alt=""></span>
-        <span style="--i:5;"><img src="tushar4.jpg" alt=""></span>
+<!-- surprise -->
+<button id="btn2" onclick="audio.play();">The End Surprise button</button>
+<script type="text/javascript">
+    const audio = new Audio();
+    audio.src = "./birthday.m4a";
+</script>
+        <div class="box">
+            <span style="--i:1;"><img src="tushar2.PNG" alt=""></span>
+            <span style="--i:2;"><img src="13.jpg" alt=""></span>
+            <span style="--i:3;"><img src="tushar1.PNG" alt=""></span>
+            <span style="--i:4;"><img src="3.jpg" alt=""></span>
+            <span style="--i:5;"><img src="tushar4.jpg" alt=""></span>
         <span style="--i:6;"><img src="6.jpg" alt=""></span>
         <span style="--i:7;"><img src="tushar3.PNG" alt=""></span>
         <span style="--i:8;"><img src="7.jpg" alt=""></span>
